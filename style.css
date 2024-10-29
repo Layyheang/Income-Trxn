@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  #balanceTotal{
+      font-family: Roboto Slab;
+  }
+}
+
+@layer utilities {
+  .spin-arrow-none::-webkit-outer-spin-button,
+  .spin-arrow-none::-webkit-inner-spin-button{
+    margin: 0;
+    appearance: none;
+  }
+  .spin-arrow-none{
+    -moz-appearance: textfield;
+  }
+}
